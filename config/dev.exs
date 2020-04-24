@@ -16,7 +16,14 @@ config :demo, Demo.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :demo, DemoWeb.Endpoint,
-  http: [port: 6001],
+  http: [port: 80],
+  https: [
+    port: 443,
+    cipher_suite: :strong,
+    keyfile: "/home/coder/project/dev/git/u-cloud/cert/private.key",
+    certfile: "/home/coder/project/dev/git/u-cloud/cert/certificate.crt",    
+    cacertfile: "/home/coder/project/dev/git/u-cloud/cert/ca_bundle.crt"
+  ],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
