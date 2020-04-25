@@ -16,7 +16,10 @@ config :demo, Demo.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :demo, DemoWeb.Endpoint,
-  url: [path: "/mydemo"],
+  url: [
+    host: "im.sulof.com",
+    path: "/mydemo"
+  ],
   http: [port: 6001],
   https: [
     port: 6051,

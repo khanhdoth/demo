@@ -15,6 +15,8 @@ defmodule DemoWeb.Router do
   end
 
   scope "/mydemo/", DemoWeb do
+  # scope "/", DemoWeb do
+
     pipe_through :browser
 
     live "/", PageLive, :index
@@ -36,8 +38,10 @@ defmodule DemoWeb.Router do
     import Phoenix.LiveDashboard.Router
 
     scope "/" do
+    # scope "/" do  
       pipe_through :browser
       live_dashboard "/dashboard", metrics: DemoWeb.Telemetry
+      live_dashboard "/mydemo/dashboard", metrics: DemoWeb.Telemetry
     end
   end
 end

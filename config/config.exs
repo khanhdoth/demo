@@ -12,7 +12,10 @@ config :demo,
 
 # Configures the endpoint
 config :demo, DemoWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [
+    host: "im.sulof.com",
+    path: "/mydemo"
+  ],
   secret_key_base: "Pr3facYpd1jBLV2xA3xqA4ygDurP/ug1SmDWZRrkLflC2fIp/0Qqg8vNrWbSvouH",
   render_errors: [view: DemoWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Demo.PubSub,
