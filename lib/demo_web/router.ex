@@ -14,7 +14,7 @@ defmodule DemoWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", DemoWeb do
+  scope "/mydemo/", DemoWeb do
     pipe_through :browser
 
     live "/", PageLive, :index
