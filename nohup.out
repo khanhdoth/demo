@@ -1,0 +1,647 @@
+[info] Running DemoWeb.Endpoint with cowboy 2.7.0 at 0.0.0.0:6001 (http)
+[info] Running DemoWeb.Endpoint with cowboy 2.7.0 at 0.0.0.0:6051 (https)
+[info] Access DemoWeb.Endpoint at https://im.sulof.com:6051
+
+webpack is watching the files…
+
+[info] CONNECTED TO Phoenix.LiveView.Socket in 269µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "RC5VZDx2Bzo6KA4wFRQ-ERJzABIcAA5e1bdPONBQleIDgWSUb6DcN-Q2", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 109ms
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/js/app.js
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/images/phoenix.png
+[debug] Live reload: priv/static/css/app.css
+[debug] Live reload: priv/static/images/phoenix.png
+Hash: 727334cf1638ae218bee
+Version: webpack 4.41.5
+Time: 4089ms
+Built at: 04/26/2020 6:58:58 PM
+                Asset       Size  Chunks                   Chunk Names
+       ../css/app.css     13 KiB     app  [emitted]        app
+   ../css/app.css.map   16.6 KiB     app  [emitted] [dev]  app
+       ../favicon.ico   1.23 KiB          [emitted]        
+../images/phoenix.png   13.6 KiB          [emitted]        
+        ../robots.txt  202 bytes          [emitted]        
+               app.js    139 KiB     app  [emitted]        app
+           app.js.map    267 KiB     app  [emitted] [dev]  app
+Entrypoint app = ../css/app.css app.js ../css/app.css.map app.js.map
+[0] multi ./js/app.js 28 bytes {app} [built]
+[../deps/phoenix/priv/static/phoenix.js] 35.6 KiB {app} [built]
+[../deps/phoenix_html/priv/static/phoenix_html.js] 2.21 KiB {app} [built]
+[../deps/phoenix_live_view/priv/static/phoenix_live_view.js] 81.7 KiB {app} [built]
+[./css/app.scss] 39 bytes {app} [built]
+[./js/app.js] 1.29 KiB {app} [built]
+    + 4 hidden modules
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/sass-loader/dist/cjs.js!css/app.scss:
+    Entrypoint mini-css-extract-plugin = *
+    [./node_modules/css-loader/dist/cjs.js!./css/phoenix.css] 10.4 KiB {mini-css-extract-plugin} [built]
+    [./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/app.scss] 2.06 KiB {mini-css-extract-plugin} [built]
+        + 2 hidden modules
+[info] GET /dashboard/nonode@nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 17ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 211µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HD4cekR5EygXBxYwQDJbFiMcPiAZd2pbir-N7AVCAJQD2q6RSYzQKZ57", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/ets
+[debug] Processing with Phoenix.LiveView.Plug.ets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 7ms
+[info] GET /dashboard/nonode@nohost/processes
+[debug] Processing with Phoenix.LiveView.Plug.processes/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 8ms
+[info] GET /dashboard/nonode@nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /mydemo
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 22ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 354µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "MD1LfRZSMFISNwgnAHtYMigGPkc4fxtaEqzIeju9DzOSr85vXCz6jRD6", "vsn" => "2.0.0"}
+[info] GET /mydemo
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 203µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NjQGWkJPIFo1fxIOPQZccz93JjBnFWgECx7n1we1c2UzOE17O2bA587h", "vsn" => "2.0.0"}
+[info] GET /dashboard
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 302 in 590µs
+[info] GET /dashboard/nonode@nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 246µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NAVrfRB6dy9nGDAABRMVLEMPPhA2HjpfAIZIcB2D1UwtwPxh3Jzad3e3", "vsn" => "2.0.0"}
+[info] GET /mydemo
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 189µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "MWZkJzgMHTIKHTY5Z1UHAS8AOGRZADxDI_2szA0w3tgM73FuvboWj4V-", "vsn" => "2.0.0"}
+[info] GET /mydemo
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 5ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 212µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "KEoFMgwZW3NAOT02HzN0OhcEY2dpUCUUPsSfNTv6yPlBOU5NNf4TZdOz", "vsn" => "2.0.0"}
+[info] GET /dashboard
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 302 in 544µs
+[info] GET /dashboard/nonode@nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 6ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 186µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "LE0MMhsobitoPgtEFyULIRQ0EkZdawgcTtZfYeCnQWZ0GCJUMVEun_br", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/ets
+[debug] Processing with Phoenix.LiveView.Plug.ets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 3ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 4ms
+[info] GET /dashboard/nonode@nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 19ms
+[info] GET /dashboard/nonode@nohost/metrics/demo
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "demo", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] GET /dashboard/nonode@nohost/metrics/vm
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "vm", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 4ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 204µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "PH4mY3M9Gz0LURMeGQIyNg4WFQFQVzI8DGp71p6x28BjIdsBWtB2ccXR", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 9ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 202µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "L1EFFRsbHDVcXmAbOgktOSkSEV5CAg0oWhSAYV1pe71ojolMppFmq6gF", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 13ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 193µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "LFM1JRESXiZWDzA1ORQkIw4LZnh5URIATjcqS_scofaAireWWi1KJexn", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 9ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 197µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "F00HDhU1eyNhWmgQaTw5HCxQE3V_RlgxotQZWxVfX39d9Zxhu2DFLr2_", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 672µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "C3oueQd5HCtABxMAAQErBAYIZHtpcQQlsCx-E41nynBtQgjp_j3HZEnK", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 9ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 10ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 10ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 176µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "PghkGRd9V3xORGMdJjQDRigFI0cGQyNZF12MU0z9w-2ivRB2qgtt5wI7", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 9ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 9ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 196µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "P08MIwkkTndrAQMAZB4sKxVPDWtnBh8ZGvZwKic2RhRt4xm_L-ZXT2uw", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 201µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "AAswPQkHSixSMCQ6GzU3NRY9DUZ_RAYDx2fiKJgikYuNKSvAO_ZuLplm", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 14ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 193µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "TG4jIBp4FXdJUSkVIRY5HDIELmZ6Zy434WutX582p8xaqpxhkfyUISDY", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 10ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 10ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 196µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "K3hvZgc5bDxbP2hBAV41QiArBH8DVRk-SA92EtAybV95Q8t6yISL0asP", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 195µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "E3Y-Yy8OaiZ6KGkGOjExEwAmP1xBcjI7kOh7mCGcCA8rjWpgYDhorFXU", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 10ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 188µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "THsiN3IlYBdsWBUlAFQPAG0IZmBVQCIq4Btc0hMRU1DQP2Nt4j1SftHD", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 171µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HnMHGiUeY31qJ2RCYzcVPxI7B0txfyUvfJQNgSN8SN563QTKKYPxBKOA", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 214µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HksbLS4nFSdzKjNCGj8QHgo0M2FZRgxefrMylj8bJCb6JYQjSVdRjrf0", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 198µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "TnsvAi07QwR-KB0GPhAmEG4VEkpqY1Nd6ByVovnAGALrnvgd7wEyYW93", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 196µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "C1IjFRFgSCZ6KCsnfVY0Gx0PAlhCczMEskuAS-ecCAzS-0uoDmUkqGYj", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 187µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HE41YCUBSD18ITMCOSdwEzM0BUt1bD4cdwc4gLexEHbviA1gjVRxFXTr", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 190µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "MQoOInIdcjR_KhZFFT8sPi8NPFBechBaI3Xv0P_qFCG1EYmJvokcmFz4", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 195µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HkMVEAUuZwAAHSAcPikFPxYkGgBgeQMafzCDGcJE9tqhnODKOFM3SMit", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 186µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "TmsfNicVa3NqBgVGP1EPQhgmYWlpegcf6RIbeXF6SoT2o7N6AD6ZZNmq", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 175µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "P3UyJhoiZiF1DQgsYid4Q20yb3RRBy0BGLdrXoKdLdYX2A974P8Gb3Go", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 10ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 11ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 194µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "Nk1gYgt6WHdhXyIOZQU3LBsVEHh9cjBWNt66I7u2X6sz5cvXBwGKNFZ8", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 198µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HQ5uC3M0XjNvLWIGZTEGWWtWO0Z0Uz1De78_1ysvVD3r5WG-24luGgW-", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 197µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "D1puLSsaZB9LGDhDIgByRAkaYUBFeSBdwc8yiWIZrqi7rf30Px6svMJ3", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 192µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "TVdmAAMjfHcBWB0DFh82TCsQZQIEVhoe5n0TAnQ281LwFyw8rr217bpp", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 13ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 177µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "P38lAhESQyMIUXwFHCUGMjBaFHFccD0CGFsVS_nf18-qLCGFi8CBoDWl", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 10ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 188µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "MFs5BzIdTypcKBcyPiIEPQstHURqZlw3HboSpPboeAFFnDEIROJwYR6Y", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 13ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 197µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "G0o5PTtgYnxUXh41ZjEsF2E7JHQHYAsZcsoiy-O9m7OA6Wmc8YsG4Taw", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 190µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "VXMVGgMLdCN0ASUkBwpzTRo4elFpYj0g-JCNAFYfMhtPWl29CZ-bZVWN", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 15ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 187µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HUluHDUaWgN2DxYeHVAONW8aAwEBVhk5ep8HwWwFOfGjM6OA6xT22bsW", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 201µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "L1M6Giw-dTZpIRQ-Agh2KwsuY0NgQxMGWjlNnsXsPHEJRn7_RL4pSwyh", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 14ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 198µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "MFp7GTgicjBABzRDAyMyQwwLZVRURBs6Hc-Mzo_uyne7SEs7Ui2ggpqT", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 191µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NVYXYjp6Zj1SH2E_OgAJOA44MlFVYC0oMoA6x7Kxkv0KjfHLWZebfTGF", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 15ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 1ms
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "VVouLB0MfSEJAj41JhxsEQwNOR5XWTML-cxx_APd0koAvz-eUon-dmYe", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 12ms
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 17ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 187µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "FmwlZzM8GyhPExxCHBAvPREUHWJHAAYNnUs3qq6mvzM6LvnIHvJQt4lc", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 16ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 202µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "EwEYIXQhbildHisyCCoQRTwpJENATQ8Pk8Nu6lCldwzFXLQ1eKspsyea", "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 641µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NU4aMC4DdCdwUDcCMRYLISAEDVB1ATAxMwLdlNYbI9fvapJUyfZcF5Z_", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/socketshttps:/dev.sulof.com/mydemo/dashboard/nonode@nohost/sockets
+[info] CONNECTED TO Phoenix.LiveView.Socket in 194µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "QF5kHzoOeDZMXTkrHDB5PDdQPl4KTANZ8g2KxCUsu4h_LV8Hn2im9xi7", "vsn" => "2.0.0"}
+[debug] ** (Phoenix.Router.NoRouteError) no route found for GET /dashboard/nonode@nohost/socketshttps:/dev.sulof.com/mydemo/dashboard/nonode@nohost/sockets (DemoWeb.Router)
+    (demo 0.1.0) lib/phoenix/router.ex:402: DemoWeb.Router.call/2
+    (demo 0.1.0) lib/demo_web/endpoint.ex:1: DemoWeb.Endpoint.plug_builder_call/2
+    (demo 0.1.0) lib/plug/debugger.ex:132: DemoWeb.Endpoint."call (overridable 3)"/2
+    (demo 0.1.0) lib/demo_web/endpoint.ex:1: DemoWeb.Endpoint.call/2
+    (phoenix 1.5.1) lib/phoenix/endpoint/cowboy2_handler.ex:64: Phoenix.Endpoint.Cowboy2Handler.init/4
+    (cowboy 2.7.0) /home/coder/project/dev/git/demo/deps/cowboy/src/cowboy_handler.erl:41: :cowboy_handler.execute/2
+    (cowboy 2.7.0) /home/coder/project/dev/git/demo/deps/cowboy/src/cowboy_stream_h.erl:320: :cowboy_stream_h.execute/3
+    (cowboy 2.7.0) /home/coder/project/dev/git/demo/deps/cowboy/src/cowboy_stream_h.erl:302: :cowboy_stream_h.request_process/3
+    (stdlib 3.12.1) proc_lib.erl:249: :proc_lib.init_p_do_apply/3
+
+[info] GET /dashboard/nonode@nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 4ms
+[info] GET /dashboard/nonode@nohost/metrics/demo
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "demo", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode@nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 3ms
+[info] GET /dashboard/nonode@nohost/metrics/demo
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "demo", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 4ms
+[info] GET /dashboard/nonode@nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 5ms
+[info] GET /dashboard/nonode@nohost/metrics/demo
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "demo", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 5ms
+[info] GET /mydemo
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 196µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "YjoyBR8kNwkvZ187SRISIiESeBMACB4F2OBvfJy_H26BppHNOp-pFnOk", "vsn" => "2.0.0"}
+[info] GET /dashboard
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 302 in 529µs
+[info] GET /dashboard/nonode@nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 189µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "fQE_NhVDDyY0GFEsUxQrFlwbDxQtUzIC-tOEl-ApSM8Ujvqz2yZwk5cl", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/sockets
+[debug] Processing with Phoenix.LiveView.Plug.sockets/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode@nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode@nohost/metrics/demo
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "demo", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode@nohost/metrics/vm
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "vm", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode@nohost/metrics/phoenix
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "phoenix", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode@nohost/metrics/demo
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "demo", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /mydemo
+[debug] Processing with Phoenix.LiveView.Plug.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 215µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "Ci9UBQEkOh9hIlw5KWQ5b14DCxwwIhVJSF3dbLvO9MlUS3h68VilVjey", "vsn" => "2.0.0"}
+[info] GET /dashboard
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 302 in 506µs
+[info] GET /dashboard/nonode@nohost
+[debug] Processing with Phoenix.LiveView.Plug.home/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 194µs
+  Transport: :websocket
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "M10MMTY9NSlrBl0mSQIhMhYPUggLADh-j4kPUUyy3imJ3UpkpZ0xmHHN", "vsn" => "2.0.0"}
+[info] GET /dashboard/nonode@nohost/metrics
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
+[info] GET /dashboard/nonode@nohost/metrics/demo
+[debug] Processing with Phoenix.LiveView.Plug.metrics/2
+  Parameters: %{"group" => "demo", "node" => "nonode@nohost"}
+  Pipelines: [:browser]
+[info] Sent 200 in 1ms
